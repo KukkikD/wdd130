@@ -1,9 +1,7 @@
-body {
-    text-align: center;
-  }
 
   nav {
     background-color: steelblue;
+    color: white;
     padding: 10px;
   }
 
@@ -12,8 +10,15 @@ body {
     margin: 40px;
   }
 
+  a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+
   h1 {
     color: steelblue;
+    text-align: center;
   }
   img {
     width: 800px;
@@ -25,15 +30,37 @@ body {
   footer {
     background-color: steelblue;
     color: white;
+    padding: 10px;
+  
   }
 
   .main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
 }
 
 /* cannot use this id 'active' for other id */
 #active {
   background-color: white;
   color: steelblue;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+* {
+  border: 2px solid blue;
+}
+
+nav, footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
 }
