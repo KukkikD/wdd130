@@ -16,7 +16,7 @@ header {
     grid-template-columns: 200px auto;
 }
 img.logo {
-    width: 40%;
+    width: 80px;
 }
 #logo_link{
     grid-column: 1/2;
@@ -128,6 +128,7 @@ main section img {
 
 .icon {
     margin-top: 80px;
+    width: 80px;
 }
 
 .rafting-card,
@@ -163,5 +164,6 @@ footer p {
 
 .social img {
     margin: 0 10px;
+    width: 80px;
 }
 
