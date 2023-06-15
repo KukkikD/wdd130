@@ -448,3 +448,8 @@ main h2{
     color: #283618;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
