@@ -20,10 +20,10 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #333533; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #333533  ;
-  --nav-link-color: #0b2f58;
-  --nav-background-color: #fca311;
-  --nav-hover-link-color: #cec9c9;
-  --nav-hover-background-color: black;
+  --nav-link-color: white;
+  --nav-background-color: black;
+  --nav-hover-link-color: #fca311;
+  --nav-hover-background-color: #333533;
 }
 
 
@@ -40,6 +40,7 @@ img {
   display: block;
   margin: 0 auto;
   width: 40%
+  
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
