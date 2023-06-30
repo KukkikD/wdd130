@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 body {
@@ -449,7 +448,7 @@ footer {
 .site-plan{ 
   font-size: 20px;
   text-decoration: underline;
-  columns: #cec9c9;
+  color: #cec9c9;
   margin-left: 20%;
   margin-top: -20PX;
   border-radius: 50%;
@@ -475,7 +474,6 @@ footer {
 .bg-image {
   /* Add the blur effect */
   filter: blur(8px);
-  -webkit-filter: blur(8px);
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -486,9 +484,8 @@ footer {
 }
 
 .bg-image img{
-  max-width: 1600px;
-  height: 608px;
   align-items: center;
+  width: 1600px;
 }
 
 /* Position text in the middle of the page/image */
@@ -510,7 +507,7 @@ footer {
 
 /* Center website */
 .main-service {
-  max-width: 1500px;
+  max-width: 100%;
   margin: auto;
   box-sizing: border-box;
   background-color: #f1f1f1;
@@ -520,6 +517,8 @@ footer {
 
 .img-grid {
   border: 1px solid #fca311;
+  width: 1600px;
+  height:300px;
 }
 
 .row-grid {
